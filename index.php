@@ -31,8 +31,20 @@
 
     <main>
             <div id="Pokaz" class="blokimain">
-                <h2>Strona Pokaz</h2>
-                <p>Tu będzie lista produktów.</p>
+                <h2>Produkty</h2>
+                <?php
+                $connect = mysqli_connect("localhost", "root", "", "bazar");
+                $query = "SELECT * FROM produkty";
+                $result = mysqli_query($connect, $query);
+                while($row = mysqli_fetch_row($result)) {
+                    echo "<div class='produkt'><br>";
+                    echo "<img src='" . $row[7] . "' alt='Zdjęcie produktu'><br>";
+                    echo "<p> Nazwa produktu: " . $row[1] . "</p><br>";
+                    echo "<p> Opis produktu: " . $row[2] . "</p><br>";
+                    echo "<p> Cena produktu: " . $row[3] . " zł</p><br>";
+                    echo "</div>";
+                }
+                ?>
             </div>
     
             <div id="Dodaj" class="blokimain" style="display:none;">
