@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    background-color: #a7a7a7;
+    color: #fff;
+    height: 10vh;
+    width: 20vw;
+    float: left;
+    font-size: 25px;
+}
+
+.header2{
+    background-color: #a7a7a7;
+    color: #fff;
+    height: 10vh;
+    width: 100vw;
+        
+} 
+.header1 h1{
+    padding: 20px;
+    text-align: left;
+}
+
+.header2 h2{
+    padding: 20px;
+    text-align: right;
+}
+
+main{
+    background-color: rgb(147, 197, 255);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloczek{
+    background-color: white;
+    width: 30vw;
+    height: 60vh;
+    padding: 20px;
+    box-shadow: black 5px 5px 15px;
+    border-radius: 25px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.bloczek a, .bloczek h3{
+    color: black;
+    font-weight: 100;
+
+}
+
+
+
+footer{
+    background-color: #a7a7a7;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    height: 10vh;
+}
+
+.submit{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    transition: 0.5s;
+    font-size: large;
+
+}
+
+.submit:hover{
+    background-color: rgb(105, 187, 255);
+    transition: 0.5s;
+}
+
+.pola{
+    background-color: white;
+    border: 3px solid black;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.komunikat{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}

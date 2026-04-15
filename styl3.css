@@ -11,6 +11,7 @@
     width: 20vw;
     float: left;
     font-size: 25px;
+    
 }
 
 .header2{
@@ -18,7 +19,7 @@
     color: #fff;
     height: 10vh;
     width: 100vw;
-        
+    
 } 
 .header1 h1{
     padding: 20px;
@@ -28,6 +29,25 @@
 .header2 h2{
     padding: 20px;
     text-align: right;
+    font-size: 40px;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.logout{
+    background-color: white;
+    padding: 7px;
+    border-radius: 40px;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    margin-left: 50px;
+    
+
 }
 
 aside{
@@ -35,7 +55,7 @@ aside{
     width: 30vw;
     float: left;
     height: 80vh;
-
+    
 }
 main{
     margin-left: 31vw;
@@ -75,7 +95,6 @@ footer{
     text-align: center;
     clear: both;
     height: 10vh;
-
 }
 
 .a1,.a2,.a3{
@@ -118,7 +137,13 @@ footer{
     margin-left: 40px;
     margin-bottom: 40px;
     float: left;
+    transition: 0.5s;
 
+}
+
+.produkt:hover{
+    box-shadow: 0px 0px 30px rgb(0, 102, 255);
+    
 }
 
 .produkt img{
@@ -134,3 +159,61 @@ footer{
     font-size: 30px;
     
 }
+
+.paragraf3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}   
+
+.submit{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    transition: 0.5s;
+    font-size: large;
+
+}
+
+.submit:hover{
+    background-color: rgb(105, 187, 255);
+    transition: 0.5s;
+}
+
+.pola{
+    background-color: white;
+    border: 3px solid black;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.uzytkownik{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: black 5px 5px 15px;
+    border: 3px solid black;
+    width: 17vw;
+    height: 30vh;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    float: left;
+    text-align: left;
+    padding: 15px;
+    transition: 0.5s;
+}
+.uzytkownik:hover{
+    box-shadow: 0px 0px 30px rgb(0, 102, 255);
+    
+}
+
+.uzytkownik img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
